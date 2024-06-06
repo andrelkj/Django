@@ -1,5 +1,5 @@
 from django.urls import path
 from django.http import HttpResponse
-from library.views import home, about
+from library.views import home
 
-urlpatterns = [path("", home), path("about/", about)]
+urlpatterns = [path("", home)]
